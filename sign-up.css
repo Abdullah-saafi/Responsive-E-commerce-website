@@ -1,0 +1,118 @@
+.logo{
+    display: flex;
+    margin-bottom: 1rem;
+}
+
+.logo img{
+    height: 3rem;
+}
+
+.logo p{
+    font-size: 1.5rem;
+    color: #adc3c6;
+    font-style: italic;
+    font-family: monospace;
+    font-weight: 600;
+    letter-spacing: 3px;
+}
+
+
+
+.header{
+    background-color: #dcdfe345;
+    padding: 10px;
+}
+
+.registration{
+    display: flex;
+    padding: 0px 30px;
+    justify-content: center;
+}
+.register-bonus-img{
+    width: 40%;
+    position: relative;
+}
+
+.register-bonus-img h2{
+    font-weight: 700;
+    font-size: 2.5rem;
+    color: white;
+    left: 3rem;
+    position: absolute;
+    top: 18rem;
+}
+
+.registration-form{
+    border: 1px solid rgba(49, 47, 47, 0.232);
+    padding: 30px;
+    margin: 0px 20px;
+}
+.registration-form h4{
+    border-bottom: 1px solid rgba(0, 0, 0, 0.177);
+    margin-bottom: 20px;
+    padding-bottom: 5px;
+}
+
+.form{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 15px;
+    font-size: 14px;
+    color: #7a7272;
+}
+.registration-form h6{
+    margin: 20px 0px 40px 0px;
+    font-size: 14px;
+    color: #7a7272;
+}
+.registration-form p{
+    font-size: 12px;
+    color: #7a7272;
+}
+.form input{
+    padding: 5px 40px;
+
+}
+
+.form select{
+    padding: 5px 50px;
+}
+
+.submit input{
+    background-color: #3d8fe0;
+    border: none;
+    color: white;
+    font-size: 18px;
+    border-radius: 4px;
+    padding: 10px 60px;
+}
+
+.terms{
+    color: #65b1ff;
+    font-weight: 400;
+}
+
+@media screen and (max-width:480px) {
+    .form{
+        grid-template-columns: 1fr ;
+    }
+    .registration{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .register-bonus-img{
+        width: 90%;
+        margin-bottom: 2rem;
+    }
+    .register-bonus-img h2{
+        font-size: 1.5rem;
+        color: white;
+        left: 1.8rem;
+        position: absolute;
+        top: 11rem;
+    }
+
+}
+

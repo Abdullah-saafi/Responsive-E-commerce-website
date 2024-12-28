@@ -1,0 +1,751 @@
+
+.fnav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: var(--primary-color);
+    color: white;
+    font-size: 1.2rem;
+    padding: 0rem .2rem;
+    position: sticky;
+}
+
+.logo img{
+    width:18% ;
+    margin-left: 18%;
+}
+
+.logo p{
+    color: #adc3c6;
+    font-style: italic;
+    font-family: monospace;
+}
+
+.logo-s{
+    color: white;
+    font-family: sans-serif;
+    font-weight: 800;
+    font-style: italic;
+}
+
+.location p{
+    text-align: center;
+    font-size: 0.8rem;
+    
+}
+
+.location h6{
+    font-size: 1.4rem;
+}
+
+.search-bar{
+    width: 35%;
+    display: flex;
+    align-items: center;
+
+}
+
+.search-bar input{
+    border-radius: 7px;
+    padding: .7rem;
+    width: 90%;
+}
+.search-bar button{
+    border-radius: 10px;
+    padding: .6rem;
+    background-color: rgb(177, 54, 54);
+}
+.search-bar button i{
+    font-size: 1rem;
+}
+
+.return{
+    text-align: center;
+    font-size: 0.8rem;
+}
+
+.cart{
+    display: flex;
+    align-items: center;
+}
+.cart-logo{
+    font-size: 2.5rem;
+}
+
+.cart-txt{
+    font-size: 1.3rem;
+}
+.fnav-mbl{
+    display: none;
+   
+}
+
+.snav{
+    background-color: var(--secondary-color);
+    position: sticky;
+    top: 0  ;
+
+
+}
+.snav ul{
+    display: flex;
+
+}
+
+.snav ul li{
+    margin-left: 20px;
+    font-weight: 600;
+    font-size: 1rem;
+    color: white;
+    padding: 10px 0px;
+
+}
+
+.snav ul :hover{
+    text-decoration: underline;
+    text-underline-offset: 3px;
+    transition: all 8 s ease ;
+
+}
+
+.nav-links ul li :hover{
+    text-decoration: underline;
+    text-underline-offset: 3px;
+    transition: all 8 s ease ;
+}
+
+.offer{
+    background-color: var(--primary-color);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 2rem;
+    width:100% ;
+    position: relative;
+   }
+
+   .offer-timer {
+   
+    position: absolute;
+    color: white;
+    font-size: large;
+    left: 6rem;
+    top: 2.5rem;
+
+   }
+
+   .offer-img {
+       width: 30%;
+    }
+    
+    .offer-img img{
+       margin-top: 1rem;
+       top: 1rem;
+    width: 100%;
+   }
+   
+   
+   .offer-deal-cards{
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: space-between;
+    width: 60%;
+ }
+ 
+   .offer-deal-card1{
+       padding: 15px;
+       border-radius: 10px;
+       background-color: #fdeebf;
+       box-shadow: 10px 10px 0px 0px #676252;
+       width:30%;
+       
+   }
+   
+   .offer-deal-card1 h5{
+       color: #79483b;
+       margin: 10px 0px;
+       font-size: 1.5rem;
+   }
+   
+   .offer-mini-card-img, .offer-mini-card2-img {
+     width: 50%;
+   }
+
+   .offer-mini-card1 img{
+    border-radius:25px;    
+   }
+   
+   .offer-mini-card1, .offer-mini-card2{
+       display: flex;
+       margin-bottom: .5rem;
+   
+   }
+   
+   .offer-mini-card-price{
+       background-color: white;
+       width:50% ;
+       border-radius: 20px;
+       display: flex;
+       flex-direction: column;
+       justify-content: center;
+       padding: 10px;
+   }
+   
+   .offer-mini-card-price p{
+       color: red;
+       font-weight: 600;
+       font-size: 19px;
+   }
+   
+   .offer-mini-card-price h6{
+       text-decoration:line-through;
+       font-size: 14px;
+       color: rgb(176, 172, 172);
+   }
+
+   
+   .offer-mini-card2-img img{
+   
+       border-radius: 20px;
+   }
+   
+   .offer-timer{
+       display: flex;
+    
+       
+   }
+   
+   .hour, .mint, .second{
+       border-radius: 10px;
+       padding: 8px;
+       font-weight: 700;
+           background-color: white;
+       color: black;
+   }
+   
+   
+.category{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 1.5rem;
+}
+
+.category h2{
+    font-size: .5rem; 
+}
+
+.category1-imgs{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    /* gap:2rem; */
+}
+
+.category1{
+    background-color: rgba(203, 192, 192, 0.236);
+    padding: 20px;
+    width: 23%;
+    height: 25rem;
+}
+
+.category1 p{
+    color: var(--Third-color); 
+    font-size: 1rem;
+    margin-top: 3rem;
+}
+
+.category2{
+    width:23%;
+    background-color: rgba(203, 192, 192, 0.236);
+    padding: 1rem;
+    margin-left: 1rem;
+}
+
+.category-card1 figcaption{
+    font-size: .7rem;
+    font-weight: 700;
+}
+
+.category h2{
+    font-size: 25px;
+    padding: 10px 0px;
+}
+
+.category2 p{
+    padding: 1rem 0px;
+    font-size: 1rem;
+    color: var(--Third-color); 
+}
+
+.holiday-special{
+    margin: 20px 30px;
+    padding: 30px 30px 60px 30px;
+    overflow: hidden;
+    background-color: rgba(203, 192, 192, 0.236);
+
+}
+.holiday-header{
+    display: flex;
+    margin-bottom: 10px;
+
+}
+
+.holiday-header h2{
+    font-size: 2rem;
+    font-weight: 500;
+}
+.holiday-header p{
+    margin-left: 30px;
+    margin-top: 8px;
+    color: var(--Third-color);
+    font-weight: 500;
+    font-size: 1rem;
+}
+
+.holiday-imgs{
+    display: flex;
+
+}
+
+.common1{
+    width: 200px;
+    height: 200px;
+
+}
+.common1 p{
+    text-align: center;
+    margin-top: 15px;
+    font-size: 14px ;
+    font-weight: 500;
+} 
+.common1 .img{
+    width: 200px;
+    height: 200px;
+
+  
+}
+.holiday-deal1{
+    width: 200px;
+    height: 200px;
+}
+.holiday-deal1 p{
+    text-align: center;
+    margin-top: 15px;
+    font-size: 14px ;
+    font-weight: 500;
+}
+
+.holiday-deal1 .img{
+    background-image: url(imgs/holiday-deal.png);
+    width: 200px;
+    height: 200px;
+    background-position: center;
+    background-size: cover;
+    border-radius: 100% 100% 100% 0px;
+
+}
+
+.holiday-deal2{
+    background-image: url(imgs/love-deal.png);
+    width: 200px;
+    height: 200px;
+    background-position: center;
+    background-size: cover;
+    border-radius: 100% 100% 100% 0px;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+.holiday-deal3{
+    background-image: url(imgs/water\ bottle.png);
+    width: 200px;
+    height: 200px;
+    background-position: center;
+    background-size: cover;
+    border-radius: 100% 100% 100% 0px;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+.holiday-deal4{
+    background-image: url(imgs/laptop.png);
+    width: 200px;
+    height: 200px;
+    background-position: left;
+    background-size: cover;
+    border-radius: 100% 100% 100% 0px;
+    margin-top: 10px;
+    margin-left: 20px;
+    
+
+}
+.holiday-deal5{
+    background-image: url(imgs/fashion.png);
+    width: 200px;
+    height: 200px;
+    background-position: center;
+    background-size: cover;
+    border-radius: 100% 100% 100% 0px;
+    margin-top: 10px;
+    margin-left: 20px;
+    
+
+}
+.holiday-deal6{
+    background-image: url(imgs/deal-toys.png);
+    width: 200px;
+    height: 200px;
+    background-position: center;
+    background-size: cover;
+    border-radius: 100% 100% 100% 0px;
+    margin-top: 10px;
+    margin-left: 20px;
+    
+
+}
+
+.holiday-deal7{
+    background-image: url(imgs/gift-guide.png);
+    width: 200px;
+    height: 200px;
+    background-position: center;
+    background-size: cover;
+    border-radius: 100% 100% 100% 0px;
+    margin-top: 10px;
+    margin-left: 20px;
+    
+
+}
+
+.best-seller{
+    margin: 20px 30px;
+    overflow: hidden;
+    background-color: rgba(203, 192, 192, 0.236);
+    padding: 1.5rem;
+}
+
+.best-seller-imgs{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.best-seller-imgs img{
+    width: 20rem;
+    margin-bottom: 2rem;
+    margin-left: 1rem;
+}
+
+.best-seller h2{
+    font-size: 22px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+
+.mini-cards-section{
+padding: 0px 30px;
+display: flex;
+
+}
+
+.deal-on-fashion-card1{
+background-color: rgba(203, 192, 192, 0.236);
+height: 470px;
+padding: 20px ;
+margin-right: 10px;
+
+}
+.deal-on-fashion-imgs{
+display: grid;
+grid-template-columns: 1fr 1fr;
+grid-template-rows: 1fr 1fr;
+gap: 15px;
+
+}
+
+.deal-on-fashion-card1 img{
+width:150px ;
+height: 140px;
+}
+.deal-on-fashion-imgs figcaption{
+font-size: .8rem;
+font-weight: 500;
+}
+
+.deal-on-fashion-card1 h2{
+font-size: 1.5rem;
+padding: 10px 0px;
+}
+
+.deal-on-fashion-card1 p{
+margin: 25px 0px;
+font-size: .8rem;
+color: var(--Third-color);
+font-weight: 500;
+}
+
+.signin-section{
+    text-align: center;
+    height: 220px;
+    background-color: rgba(203, 192, 192, 0.236);
+
+    
+}
+
+.signin{
+    padding: 30px 0px;
+}
+.signin-section hr{
+    margin: 15px 0px 0px 0px;
+    background-color: #b0a4a4;
+    height: .1rem;
+    border: none;
+}
+.signin h2{
+ font-weight: 700;
+ font-size: 25px;
+}
+.signin-btn button{
+    padding: 6px 80px;
+    font-size: 1rem;
+    border-radius: 20px;
+    background-color: #ffd814;
+    border: none;
+    
+}
+
+.signin p{
+    font-size: .9rempx;
+    padding: 5px 0px;
+}
+
+.start-here{
+    color: var(--Third-color);
+    text-decoration: underline;
+}
+.back-top{
+    text-align: center;
+    background-color: #37475a;
+    color: white;
+    padding: 12px 0px;
+    font-size: 1rem;
+}
+
+.footer-links{
+    display: flex;
+    justify-content: center;
+    background-color: #232f3e;
+    color: white;
+    padding: 50px ;
+
+}
+.row2-links{
+    margin: 0px 100px;
+}
+
+.links h2{
+    margin-bottom: 20px;
+    font-size: 2rem ;
+}
+.links li{
+    margin-bottom: 5px;
+    color: rgba(255, 255, 255, 0.561);
+    font-size: 1rem;
+}
+
+.final-footer{
+    background-color: black;
+    color: white;
+    padding: 10px 0px;
+    font-size: .7rem;
+
+}
+
+.final-footer-links{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.final-footer ol {
+    display: flex;
+    justify-content: center;
+
+}
+
+.final-footer ol li{
+    margin-left: 15px;
+}
+
+@media screen  and (max-width:480px) {
+    .fnav{
+        display: none;
+    }
+   .fnav-mbl{
+    visibility:visible;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: var(--primary-color);
+    color: white;
+    font-size: 1rem;
+    padding: .8rem;
+   }
+
+   .signin{
+    padding: 1rem;
+   }
+
+   .sign-in a{
+    margin: 0rem .5rem;
+   }
+
+   .mbl-nav-row1{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    width: 100%;
+
+   }
+   .mbl-nav-row2{
+    width:100% ;
+   }
+    .search-bar{
+        width: 100%;
+        margin: .5rem 0rem 0rem .3rem;
+    }
+   input {
+    width: 100% ;
+   }
+   .location{
+    display: flex;
+   }
+   .location p, h6{
+    font-size: 1rem;
+    padding: .5rem;
+   }
+   .sign-in{
+    display: flex;
+    align-items: center;
+   }
+
+   .cart-logo{
+    font-size: 1.8rem;
+   }
+
+   .search-bar input{
+    padding: .5rem;
+   }
+   .search-bar button{
+    padding: .4rem;
+   }
+   .snav ul li{
+    font-size: .7rem;
+    margin-left: 15px;
+   }
+
+   .offer-timer {
+   
+    left: 6rem;
+    top: 1.8rem;
+
+   }
+   .offer{
+    flex-direction: column;
+  
+
+   }
+   .offer-img{
+    width: 100%;
+   }
+   .offer-deal-cards{
+    flex-direction: column;
+    
+   }
+   .offer-deal-cards{
+    width:100% ;
+    
+   }
+   .offer-deal-card1{
+    min-width:100% ;
+    margin-bottom: 1rem;
+   }
+   .category{
+    flex-direction: column;
+   }
+   .category1{
+    width: 100%;
+    height: 30rem;
+    margin-bottom: 1rem;
+   }
+   .category2{
+    width: 100%;
+    margin-bottom: 1rem;
+    height: 30rem;
+    margin-left: 0rem;
+   }
+
+   .category1 p{
+    margin-top: 5rem;
+   }
+   .category2 p{
+    margin-top: 2rem;
+   }
+   
+   .holiday-imgs{
+    flex-direction: column;
+    align-items: center;
+
+}
+.common1{
+    margin-bottom: 2rem;
+
+}
+
+.holiday-header{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 3rem;
+
+}
+
+.best-seller-imgs{
+    flex-direction: column;
+    align-items: center;
+}
+
+.best-seller-imgs img{
+    margin-bottom: 2rem;
+}
+.mini-cards-section{
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    }
+    .deal-on-fashion-card1{
+        margin-right: 0px;
+        margin-bottom: 1rem;
+        
+        }
+        .links h2{
+            margin-bottom: 20px;
+            font-size: .8rem ;
+        }
+        .links li{
+            font-size: .5rem;
+        }
+        .row2-links{
+            margin: 0px 30px;
+        }
+        .final-footer{
+            padding: 10px 0px;
+            font-size: .5rem;
+        
+        }
+        .signin{
+            padding: 30px 0px;
+        }
+}
+
