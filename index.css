@@ -817,3 +817,20 @@ font-weight: 500;
     translate: 2px 2px;
 }
 
+.side-bar{
+    width:25% ;
+    height: 85%;
+    border: 6px solid white;
+    position: absolute;
+    background-color: white;
+    z-index: 100;
+    display: none;
+}
+
+.sidebar:hover{
+     height: 1000vh;
+    border: 6px solid white;
+    background-color: white;
+    z-index: 100;
+}
+

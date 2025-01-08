@@ -97,3 +97,48 @@ i{
     border-radius: 1rem;
     padding: 0.2rem 2rem;
 }
+.back-login-mbl{
+    display: none;
+}
+
+@media screen  and (max-width:480px) {
+
+    .forgot-paswrd{
+        display: block;
+        padding: 1rem;
+        width: 100vw;
+        
+    }
+    .reset-paswrd{
+        width:100% ;
+    }
+    .back-login-mbl{
+
+      width: 100%;
+    background-image: linear-gradient(to bottom right, red, rgb(255, 191, 0));
+    color: white;
+    padding: 4rem 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    }
+    .back-login-mbl h1{
+        font-size: 2rem;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.466) ;
+        font-weight: 600;
+        margin-bottom: 1rem;
+        padding-bottom: .6rem;
+        letter-spacing: .2rem;
+    }
+    
+    .back-login-mbl a{
+        border: 1px solid white;
+        border-radius: 1rem;
+        padding: 0.2rem 2rem;
+    }
+    .back-login{
+        display: none;
+    }
+    
+}
