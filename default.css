@@ -29,3 +29,14 @@ img{
     --backgorund-color:#f3f0f0;
     --Third-color: #248597;
 }
+
+.flex{
+    display: flex;
+}
+.j-cntr{
+    justify-content: center;
+}
+
+.a-cntr{
+    align-items: center;
+}

@@ -124,8 +124,8 @@
         <div class="offer-timer">
           <div class="disclaimer">
             <p>
-              Sale Ends In: <span class="hour">02</span> :
-              <span class="mint">29</span> : <span class="second">54 </span>
+              Sale Ends In: <span id="hours">00</span> :
+              <span id="minutes">00</span> : <span id="seconds">00 </span>
             </p>
           </div>
         </div>
@@ -547,7 +547,7 @@
         <hr />
         <div class="signin">
           <h2>See personalized recommendations</h2>
-          <div class="signin-btn">
+          <div class="signin-btn" style="position: relative">
             <p>
               <button><a href="signin.html">Sign in</a></button>
             </p>
@@ -623,5 +623,32 @@
         </div>
       </div>
     </footer>
+
+    <script>
+      let timeLeft = 60 * 60;
+
+      function formatNumber(num) {
+        return num.toString().padStart(2, "0");
+      }
+
+      function updateCountdown() {
+        const hours = Math.floor(timeLeft / 3600);
+        const minutes = Math.floor((timeLeft % 3600) / 60);
+        const seconds = timeLeft % 60;
+
+        document.getElementById("hours").textContent = formatNumber(hours);
+        document.getElementById("minutes").textContent = formatNumber(minutes);
+        document.getElementById("seconds").textContent = formatNumber(seconds);
+
+        if (timeLeft > 0) {
+          timeLeft--;
+        } else {
+          clearInterval(timer);
+          alert("Time's Up!");
+        }
+      }
+
+      const timer = setInterval(updateCountdown, 1000);
+    </script>
   </body>
 </html>

@@ -8,7 +8,6 @@
     color: white;
     font-size: 1.2rem;
     padding: 0rem .2rem;
-    position: sticky;
 }
 
 .logo img{
@@ -105,15 +104,9 @@
 .snav ul :hover{
     text-decoration: underline;
     text-underline-offset: 3px;
-    transition: all 8 s ease ;
 
 }
 
-.nav-links ul li :hover{
-    text-decoration: underline;
-    text-underline-offset: 3px;
-    transition: all 8 s ease ;
-}
 
 .offer{
     background-color: var(--primary-color);
@@ -230,7 +223,7 @@
        
    }
    
-   .hour, .mint, .second{
+   #hours, #minutes, #seconds{
        border-radius: 10px;
        padding: 8px;
        font-weight: 700;
@@ -473,14 +466,18 @@
 
 
 .mini-cards-section{
-padding: 0px 30px;
+/* margin: 0px 30px; */
 display: flex;
+justify-content: center;
+max-width: 100%;
+overflow: hidden;
+
 
 }
 
 .deal-on-fashion-card1{
 background-color: rgba(203, 192, 192, 0.236);
-height: 470px;
+min-height: 30%;
 padding: 20px ;
 margin-right: 10px;
 
@@ -504,8 +501,8 @@ gap: 15px;
 }
 
 .deal-on-fashion-card1 img{
-width:150px ;
-height: 140px;
+max-width: 150px;
+max-height: 140px;
 }
 .deal-on-fashion-imgs figcaption{
 font-size: .8rem;
@@ -569,6 +566,7 @@ font-weight: 500;
     color: white;
     padding: 12px 0px;
     font-size: 1rem;
+    scroll-behavior: smooth;
 }
 
 .footer-links{
@@ -810,5 +808,12 @@ font-weight: 500;
         }
        
 
+}
+.location:hover,
+.search-bar:hover,
+.sign-in:hover, 
+.order:hover,
+.cart:hover{
+    translate: 2px 2px;
 }
 

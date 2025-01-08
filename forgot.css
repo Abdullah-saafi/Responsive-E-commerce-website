@@ -1,0 +1,99 @@
+main{
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+    background-color: rgb(228, 228, 228);
+}
+
+.forgot-paswrd{
+    display: flex;
+    padding: 1rem;
+    width: 65vw;
+    
+}
+.pswrd-txt h1{
+    color: #0a72db ;
+    font-weight: 600;
+    border-bottom: 1px solid rgba(153, 150, 150, 0.349);
+    margin-bottom: 1rem;
+    padding-bottom: .5rem;
+    font-size: 2rem;
+    word-spacing: .5rem;
+    letter-spacing: .1rem;
+}
+
+.pswrd-txt p{
+    color: rgba(163, 160, 160, 0.947) ;
+    margin-bottom: 1rem;
+}
+
+
+.reset-paswrd{
+    display: flex;
+    background-color: rgba(255, 255, 255, 0.922);
+    flex-direction: column;
+    padding: 2rem;
+    width: 70%;
+    /* align-items: center; */
+}
+.pswrd-txt{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    /* padding: 0rem 6rem; */
+}
+
+input[type='submit']{
+    width:100% ;
+    padding: .3rem;
+    border-radius: 50rem;
+    background: linear-gradient(to right, #137ee9,#85b4e2) ;
+    color: white;
+    font-size: 1rem;
+    border: none;
+    cursor: pointer;
+}
+input[type='email']{
+    width:90% ;
+    padding: .5rem;
+    /* color: white; */
+    /* border: none; */
+    border: 1px solid rgb(202, 199, 199);
+    border-left: none;
+    margin-bottom: 1rem;
+}
+
+
+i{
+    background-color: rgb(240, 235, 235);
+    padding: 6px;
+
+}
+
+.back-login{
+    width: 40%;
+    background-image: linear-gradient(to bottom right, red, rgb(255, 191, 0));
+    color: white;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.back-login h1{
+    font-size: 2rem;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.466) ;
+    font-weight: 600;
+    margin-bottom: 1rem;
+    padding-bottom: .6rem;
+    letter-spacing: .2rem;
+}
+
+.back-login a{
+    border: 1px solid white;
+    border-radius: 1rem;
+    padding: 0.2rem 2rem;
+}
