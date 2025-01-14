@@ -9,7 +9,8 @@ main{
 .forgot-paswrd{
     display: flex;
     padding: 1rem;
-    width: 65vw;
+    justify-content: center;
+    flex-wrap: wrap;
     
 }
 .pswrd-txt h1{
@@ -34,14 +35,11 @@ main{
     background-color: rgba(255, 255, 255, 0.922);
     flex-direction: column;
     padding: 2rem;
-    width: 70%;
-    /* align-items: center; */
 }
 .pswrd-txt{
     display: flex;
     flex-direction: column;
     text-align: center;
-    /* padding: 0rem 6rem; */
 }
 
 input[type='submit']{
@@ -57,8 +55,6 @@ input[type='submit']{
 input[type='email']{
     width:90% ;
     padding: .5rem;
-    /* color: white; */
-    /* border: none; */
     border: 1px solid rgb(202, 199, 199);
     border-left: none;
     margin-bottom: 1rem;

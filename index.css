@@ -111,11 +111,12 @@
 .offer{
     background-color: var(--primary-color);
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
     padding: 2rem;
     width:100% ;
     position: relative;
+    flex-wrap: wrap;
    }
 
    .offer-timer {
@@ -129,21 +130,22 @@
    }
 
    .offer-img {
-       width: 30%;
+       width: 30rem;
     }
     
     .offer-img img{
        margin-top: 1rem;
        top: 1rem;
-    width: 100%;
+    /* width: 100%; */
    }
    
    
    .offer-deal-cards{
     display: flex;
     flex-wrap:wrap;
-    justify-content: space-between;
-    width: 60%;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
  }
  
    .offer-deal-card1{
@@ -151,7 +153,9 @@
        border-radius: 10px;
        background-color: #fdeebf;
        box-shadow: 10px 10px 0px 0px #676252;
-       width:30%;
+       width:15rem;
+       margin-top: 2rem;
+       margin-left: 2rem;
        
    }
    
@@ -235,7 +239,6 @@
 .category{
     display: flex;
     justify-content: center;
-    align-items: center;
     flex-wrap: wrap;
     padding: 1.5rem;
 }
@@ -255,7 +258,8 @@
 .category1{
     background-color: rgba(203, 192, 192, 0.236);
     padding: 20px;
-    width: 23%;
+    margin-top: 1rem;
+
 }
 .category1 img{
     width: 100%;
@@ -279,10 +283,14 @@
 }
 
 .category2{
-    width:23%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
     background-color: rgba(203, 192, 192, 0.236);
     padding: 1rem;
     margin-left: 1rem;
+    margin-top: 1rem;
+    width: 21rem;
 }
 
 .category-card1 figcaption{
@@ -310,7 +318,6 @@
 }
 .holiday-header{
     display: flex;
-    margin-bottom: 10px;
 
 }
 
@@ -328,12 +335,15 @@
 
 .holiday-imgs{
     display: flex;
-
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .common1{
-    width: 200px;
-    height: 200px;
+    width: 180px;
+    height: 180px;
+    margin-top: 3.5rem;
+
 
 }
 .common1 p{
@@ -354,15 +364,15 @@
 }
 .holiday-deal1 p{
     text-align: center;
-    margin-top: 15px;
     font-size: 14px ;
     font-weight: 500;
+    padding-bottom: 10rem;
 }
 
 .holiday-deal1 .img{
     background-image: url(imgs/holiday-deal.png);
-    width: 200px;
-    height: 200px;
+    width: 180px;
+    height: 180px;
     background-position: center;
     background-size: cover;
     border-radius: 100% 100% 100% 0px;
@@ -371,57 +381,52 @@
 
 .holiday-deal2{
     background-image: url(imgs/love-deal.png);
-    width: 200px;
-    height: 200px;
+    width: 180px;
+    height: 180px;
     background-position: center;
     background-size: cover;
     border-radius: 100% 100% 100% 0px;
-    margin-top: 10px;
     margin-left: 20px;
 }
 
 .holiday-deal3{
     background-image: url(imgs/water\ bottle.png);
-    width: 200px;
-    height: 200px;
+    width: 180px;
+    height: 180px;
     background-position: center;
     background-size: cover;
     border-radius: 100% 100% 100% 0px;
-    margin-top: 10px;
     margin-left: 20px;
 }
 .holiday-deal4{
     background-image: url(imgs/laptop.png);
-    width: 200px;
-    height: 200px;
+    width: 180px;
+    height: 180px;
     background-position: left;
     background-size: cover;
     border-radius: 100% 100% 100% 0px;
-    margin-top: 10px;
     margin-left: 20px;
     
 
 }
 .holiday-deal5{
     background-image: url(imgs/fashion.png);
-    width: 200px;
-    height: 200px;
+    width: 180px;
+    height: 180px;
     background-position: center;
     background-size: cover;
     border-radius: 100% 100% 100% 0px;
-    margin-top: 10px;
     margin-left: 20px;
     
 
 }
 .holiday-deal6{
     background-image: url(imgs/deal-toys.png);
-    width: 200px;
-    height: 200px;
+    width: 180px;
+    height: 180px;
     background-position: center;
     background-size: cover;
     border-radius: 100% 100% 100% 0px;
-    margin-top: 10px;
     margin-left: 20px;
     
 
@@ -429,12 +434,11 @@
 
 .holiday-deal7{
     background-image: url(imgs/gift-guide.png);
-    width: 200px;
-    height: 200px;
+    width: 180px;
+    height: 180px;
     background-position: center;
     background-size: cover;
     border-radius: 100% 100% 100% 0px;
-    margin-top: 10px;
     margin-left: 20px;
     
 
@@ -451,9 +455,10 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
 }
 .best-seller-imgs img{
-    width: 20rem;
+    width: 11rem;
     margin-bottom: 2rem;
     margin-left: 1rem;
 }
@@ -466,11 +471,9 @@
 
 
 .mini-cards-section{
-/* margin: 0px 30px; */
 display: flex;
 justify-content: center;
-max-width: 100%;
-overflow: hidden;
+flex-wrap: wrap;
 
 
 }
@@ -480,6 +483,7 @@ background-color: rgba(203, 192, 192, 0.236);
 min-height: 30%;
 padding: 20px ;
 margin-right: 10px;
+margin-top: 2rem;
 
 }
 .deal-on-fashion-imgs {
@@ -683,7 +687,7 @@ font-weight: 500;
 
    .offer-timer {
    
-    left: 6rem;
+    left: 1rem;
     top: 1.8rem;
 
    }
@@ -704,7 +708,6 @@ font-weight: 500;
     
    }
    .offer-deal-card1{
-    min-width:100% ;
     margin-bottom: 1rem;
    }
    .category{
@@ -817,20 +820,5 @@ font-weight: 500;
     translate: 2px 2px;
 }
 
-.side-bar{
-    width:25% ;
-    height: 85%;
-    border: 6px solid white;
-    position: absolute;
-    background-color: white;
-    z-index: 100;
-    display: none;
-}
 
-.sidebar:hover{
-     height: 1000vh;
-    border: 6px solid white;
-    background-color: white;
-    z-index: 100;
-}
 
